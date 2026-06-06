@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to the grassic</title>
+    <style>
+        /* 清除默认边距 */
+        body, html {
+            margin:0;
+            padding:0;
+            height:100%;
+            width:100%;
+            background-color:#dcedc8; /* 背景颜色 */
+            font-family:Arial, sans-serif; /* 设置字体 */
+        }
+        /* logo下的横线 */
+        .undergrassic-line {
+            width:100%;
+            height:3px;/* 线条高度 */
+            background-color:#808080; /* 线条颜色 */
+            position:absolute; /* 绝对定位 */
+            top:40px; /* 距离顶部40px */
+            left:0; /* 紧贴左侧 */
+        }
+
+        /* logo样式 */
+        .grassic-text {
+            position:absolute;
+            top:7.5px; /* 文字距离顶部10px */
+            left:10px; /* 文字距离左侧20px */
+            font-size:23px; /* 字号 */
+            color:#43961c; /* 文字颜色 */
+            font-weight:normal; /* 字体粗细 */
+            letter-spacing:0.5px; /* 字间距 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 左上角的 "grassic" 文字 -->
+    <div class="grassic-text">grassic</div>    
+    <!-- 位于顶部的横线，留空 -->
+    <div class="undergrassic-line"></div>
+</body>
+</html>      
